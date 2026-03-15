@@ -1,0 +1,101 @@
+/* tablet */
+@media (min-width:768px) and (max-width:991px){
+    /* home page */
+    /* hero section */
+    #hero .img1{
+        display: none;
+    }
+    #hero .welcoming {
+    width: 100% !important;
+}
+/* about us page */
+#about-hero .story .story-img img{
+    display: none !important;
+}
+#about-hero .story{
+    display: block !important;
+}
+/* team section */
+#team .container{
+    display:  block !important;
+}
+/* services page */
+/* services section */
+#services .services-img img{
+    height: 300px !important;
+}
+}
+/* mobile */
+@media (min-width:320px) and (max-width:767px){
+    #hero, #about-hero , #services{
+        padding: 100px 0 !important;
+    }
+    /* home page */
+    /* header */
+    /* #main-header{
+        position:  relative !important;
+    } */
+    #main-header .nav-links{
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 0px;
+        background-color: white;
+        padding: 20px;
+        width: 100%;
+
+    }
+    #main-header .nav-links ul {
+    display:block !important;
+}
+#main-header .nav-links ul li{
+    margin-bottom: 20px;
+}
+    #main-header .menu-toggle{
+        display: block !important;
+    }
+    /* hero section */
+        #hero .img1{
+        display: none;
+    }
+    #hero .welcoming {
+    width: 100% !important;
+}
+#hero .welcoming .hero-links a{
+  border-radius: 100px;
+    padding: 10px 20px !important;
+    font-size: 18px;
+    display: inline-block;
+}
+#hero .welcoming .hero-links a:first-child {
+    margin-bottom: 10px;
+}
+/* place section */
+#place .img-place{
+    display: block !important;
+}
+#place .img-place div{
+    margin-bottom: 10px;
+}
+/* about us page */
+/* hero section */
+#about-hero .story{
+    display: block !important;
+}
+#about-hero .story .story-img img{
+    display: none !important;
+}
+/* team section */
+#team .container{
+    display:  block !important;
+}
+/* services page */
+/* services section */
+#services .container>div{
+    display: block !important;
+}
+#services .services-img img{
+    height: 250px !important;
+    margin: 20px 0 30px 0;
+}
+}
